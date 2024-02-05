@@ -1,0 +1,406 @@
+body{
+    background-image: url("images/gp5.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*accent line on top*/
+.top{
+    background-color:rgb(225, 204, 188);
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+}
+/*search bar*/
+.searchBar{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+
+}
+
+/*icon images*/
+.homeStyle{
+    float: left;
+    padding-left: 1%;
+    
+ }
+.cartStyle{
+   float: left;
+   padding-left: 1%;
+   padding-right: 2%;
+}
+.magStyle{
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+ }
+
+.logoStyle{
+    position: relative;
+    float: left;
+    padding-top: 5%;
+    z-index: 1;
+ }
+
+
+/*holds logo and shop title*/
+.topBar{
+    background-color: rgb(241, 231, 221);
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 17%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*title*/
+h1{
+    font-weight: bolder;
+    font-family: Courier;
+    font-size: 55px;
+
+}
+hr {
+    color: #999;
+    background-color: #999; 
+    height: 0px; 
+  }
+
+/*NAV BAR*/
+.navBarDiv{
+    z-index: 1;
+    background-color: rgb(225, 204, 188);
+    position: absolute;
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+/*Navagation Bars*/
+.navButton{
+    background-color: rgb(225, 204, 188);
+    border-color: rgb(225, 204, 188);
+    padding: 10px 60px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*bg for image*/
+.imgBg{
+    position: absolute;
+    background-color: rgb(241, 231, 221);
+    width: 37%;
+    height: 85%;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+    padding: 10px;
+}
+.adjustImg{
+    width: 450px; 
+    height: auto;
+    justify-content: center;
+    border: 3px solid rgb(225, 204, 188);
+    border-radius: 20px; 
+}
+
+/*bg for product text*/
+.ProdBg{
+    position: absolute;
+    background-color: rgb(241, 231, 221);
+    width: 40%;
+    height: 70%;
+    top: 35%;
+    right: 10%;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+    padding: 10px;
+}
+
+/*product name*/
+.Name{
+    position: absolute;
+    float: center;
+    font-size: 45px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+}
+
+.priceDiv{
+
+    margin-top: 0;
+    margin-left: 68%;
+    padding: 5px;
+    position: absolute;
+    width: 30%;
+    height: auto;   
+}
+.priceText{
+    font-size: 40px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+}
+
+/*product description*/
+.des{
+    margin-top: 25%;
+    padding: 15px;
+    padding-top: 0%;
+    position: absolute;
+    width: 90%;
+    height: 25%;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+}
+h3{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 45, 45);
+    font-weight: lighter;
+    font-size: 15px;
+}
+/*SHADES*/
+.shadeDiv{
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 3%;
+    width: 55%;
+    height: auto;
+    text-align: center;
+}
+.shades {
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    border-radius: 30%;
+    padding: 10px 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+/*cart button location*/
+.bDiv{
+    margin-top: 85%;
+    margin-left: 3%;
+    padding-top: 0%;
+    position: absolute;
+    width: 55%;
+    height: auto;
+    text-align: center;
+   
+}
+.cartButton {
+    background-color: rgb(225, 204, 188);
+    color: rgb(0, 0, 0);
+    border: 2px solid #bfbfbf;
+    border-radius: 10px; 
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 20px;
+    
+  }
+
+/*Box of the list*/
+.listBox{
+    margin-top: 55%;
+    margin-left: 60%;
+    padding: 15px;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+}
+.listStyle{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 45, 45);
+    font-weight: lighter;
+    font-size: 15px;
+    list-style-type: square;
+}
+
+
+/*accent line on top*/
+.divLine{
+    background-color: rgba(236, 221, 208, 0.691);
+    margin-top: 1000px;
+    padding: 15px;
+    position: absolute;
+   
+    width: 100%;
+    height: 3%;
+
+}
+/*suggested box*/
+.bottomBox{
+    background-color: rgba(250, 241, 234, 0.909);
+    margin-top: 1000px;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+}
+
+/*Used for SUggested Products text*/
+h2{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-weight: bolder;
+    font-family: fantasy monospace;
+    font-size: 45px;
+
+}
+
+.sugBg{
+    background-color: rgb(238, 229, 218);
+    margin-top: 3%;
+    padding: 15px;
+    position: absolute;
+    left: 0; 
+    width: 100%;
+    height: 60%;
+}
+
+/*suggested items section*/
+/*1*/
+.s1Div{
+    margin-top: 2%;
+    padding: 20px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+    
+
+}
+.sProd1{
+    width: 400px;
+    height: auto;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+}
+.sL1{
+    font-size: 25px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.sP1{
+    font-size: 40px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+/*2*/
+.s2Div{
+    margin-top: 2%;
+    padding: 20px;
+    margin-left: 32%;
+    position: absolute;
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+    
+
+}
+.sProd2{
+    width: 400px;
+    height: auto;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+}
+.sL2{
+    font-size: 25px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.sP2{
+    font-size: 40px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+/*3*/
+.s3Div{
+    margin-top: 2%;
+    padding: 20px;
+    margin-left: 64%;
+    position: absolute;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+    width: auto;
+    height: 83%;
+    
+
+}
+.sProd3{
+    width: 355px;
+    height: auto;
+    border: 5px solid rgb(225, 204, 188);
+    border-radius: 10px; 
+}
+.sL3{
+    font-size: 20px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.sP3{
+    font-size: 40px;
+    font-family: Courier;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+/*MAKING BUTTONS INTERACTIVE*/
+
+/* slelcting shades*/
+.cartButton:hover {
+    background-color:white;
+    color: rgb(79, 167, 255);
+}
+.shades:hover { 
+    background-color:white;
+    color: rgb(79, 167, 255);
+}
+
+.s1Div:hover {
+    background-color:rgb(255, 237, 241);
+}
+.s2Div:hover {
+    background-color:rgb(255, 237, 241);
+}
+.s3Div:hover {
+    background-color:rgb(255, 237, 241);
+}
+.navButton:hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
